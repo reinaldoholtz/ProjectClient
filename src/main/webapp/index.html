@@ -1,0 +1,50 @@
+<html>
+<head><h1 align="center">Trade Form</h1></head>
+<body>
+   <form action="trade" method="doGet">     
+   	  <h2>Type : Spot/Forward</h2>		
+		<table>
+		   <tr><td>Customer: </td> <td> <input type="text" name="customer" size="10"> </td></tr>
+		   <tr><td>CcyPair:  </td> <td> <input type="text" name="ccypair" size="10"> </td> </tr>
+		   <tr><td>Type:  </td> <td> <input type="text" name="type"> </td> </tr>
+		   <tr><td>Direction:  </td> <td> <input type="text" name="direction" size="10"> </td> </tr>
+		   <tr><td>Trade Date:  </td> <td> <input type="date" name="tradedate"> </td> </tr>
+		   <tr><td>Amount 1:  </td> <td> <input type="number" name="amount1"> </td> </tr>
+		   <tr><td>Amount 2:  </td> <td> <input type="number" name="amount2"> </td> </tr>
+		   <tr><td>Rate:  </td> <td> <input type="text" name="rate" size="10"> </td> </tr>
+		   <tr><td>Value Date:  </td> <td> <input type="date" name="valuedate"> </td> </tr>
+		   <tr><td>Legal Entity:  </td> <td> <input type="text" name="legalentity" size="30"> </td> </tr>
+		   <tr><td>Trader:  </td> <td> <input type="text" name="trader" size="30"> </td> </tr>
+		   <tr><td></td> <td></td> </tr>
+		   <tr><td></td> <td><input type="button" value="Clean" onClick="history.go(0)"> <input type="submit" value="Trade Verify"></td> </tr>
+		</table>	    
+   </form>   
+   <form action="trade" method="get">
+      <h2>Type : Option</h2>		
+		<table>
+		   <tr><td>Customer: </td> <td> <input type="text" name="customer" size="10" min="1" max="10"> </td></tr>
+		   <tr><td>CcyPair:  </td> <td> <input type="text" name="ccypair" size="10"> </td> </tr>
+		   <tr><td>Type:  </td> <td> <input type="text" name="type"> </td> </tr>
+		   <tr><td>Style:  </td> <td> <input type="text" name="style" size="10"> </td> </tr>		
+		   <tr><td>Direction:  </td> <td> <input type="text" name="direction" size="10"> </td> </tr>
+		   <tr><td>Strategy:  </td> <td> <input type="text" name="strategy" size="10"> </td> </tr>
+		   <tr><td>Trade Date:  </td> <td> <input type="date" name="tradedate"> </td> </tr>
+		   <tr><td>Amount 1:  </td> <td> <input type="number" name="amount1"> </td> </tr>
+		   <tr><td>Amount 2:  </td> <td> <input type="number" name="amount2"> </td> </tr>
+		   <tr><td>Rate:  </td> <td> <input type="text" name="rate" size="10"> </td> </tr>
+		   <tr><td>Delivery Date:  </td> <td> <input type="date" name="deliverydate"> </td> </tr>
+		   <tr><td>Expiry Date:  </td> <td> <input type="date" name="expirydate"> </td> </tr>
+		   <tr><td>Excercise Start Date:  </td> <td> <input type="date" name="excercisestartsate"> </td> </tr>
+		   <tr><td>PayCcy:  </td> <td> <input type="text" name="payccy"> </td> </tr>
+		   <tr><td>Premium:  </td> <td> <input type="text" name="premium" size="10"> </td> </tr>
+		   <tr><td>Premium Ccy:  </td> <td> <input type="text" name="premiumccy" size="10"> </td> </tr>
+		   <tr><td>Premium Type:  </td> <td> <input type="text" name="premiumtype" size="10"> </td> </tr>
+		   <tr><td>Premium Date:  </td> <td> <input type="date" name="premiumdate" size="10"> </td> </tr>
+		   <tr><td>Legal Entity:  </td> <td> <input type="text" name="legalentity" size="30"> </td> </tr>
+		   <tr><td>Trader:  </td> <td> <input type="text" name="trader" size="30"> </td> </tr>
+		   <tr><td></td> <td></td> </tr>
+		   <tr><td></td> <td><input type="button" value="Clean" onClick="history.go(0)"> <input type="submit" value="Trade Verify"></td> </tr>
+		</table>	    
+   </form> 
+</body>
+</html>
